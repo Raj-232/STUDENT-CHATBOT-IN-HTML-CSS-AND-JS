@@ -1,0 +1,60 @@
+body {
+  background-image: url('clg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  
+
+  
+}
+#button{
+  max-width: 100%;
+  height: auto;
+}
+h1{
+	text-align:center;
+	font-family:Copperplate,Fantasy;
+	font-size:40px;
+	color:#808080
+	
+	
+	
+}
+#thu
+{
+	 text-align: center;
+	 
+	 
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  padding: 15px 50px;
+  font-size:28px;
+  cursor: pointer;
+  display:inline-block;
+  font-family:Copperplate,Fantasy;
+  text-transform: uppercase;
+  color: black;
+  
+}
+
+.btn:hover {
+  background-color: #C0C0C0;
+  color: white;
+}
+
+#para
+{
+	font-size:30px;
+	text-transform: uppercase;
+	font-family:WildWest;
+	text-align:center;
+	color:white;
+}
+h2{
+	text-align:center;
+	font-size:35px;
+	color:#C0C0C0;
+}
