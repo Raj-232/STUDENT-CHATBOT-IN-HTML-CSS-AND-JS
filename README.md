@@ -4,6 +4,8 @@ This is a very simple "chatbot" using nothing but JavaScript, HTML, & CSS. I put
 
 I hope it makes a good intro for anyone interested in chatbots and frontend fundamentals.
 
+click to index.html viwe the output
+
 Enjoy!
 
 [Demo](https://sylviapap.github.io/chatbot/)
