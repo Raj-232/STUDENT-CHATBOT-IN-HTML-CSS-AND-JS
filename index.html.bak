@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Government College of Engineering,Tirunelveli</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="icon" href="bot.png" />
+	<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div>
+<!-- Trigger/Open The Modal -->
+	<button id="buttonn" class="button-86" role="button">CHATBOT</button>
+
+	<!-- The Modal -->
+	<div id="myModal" class="modal">
+
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			
+
+			<div id="container" class="container">
+				<div id="chat" class="chat">
+					<h2>STUDENT CHATBOT</h2>
+					<div id="messages" class="messages"></div>
+					<input id="input" type="text" placeholder="Say something..." autocomplete="off" autofocus="true" />
+					</div>
+		</div>
+
+	</div>
+</div>
+
+
+<h1 id="heading">GOVERNMENT COLLEGE OF ENGINEERING </h1><br><br>
+<div id="button">
+
+<button class="btn departmant">departmant</button>
+<button class="btn placemant">placemant</button>
+<button class="btn hostel">hostel</button>
+<button class="btn sports">sports</button>
+<button class="btn about">about</button>
+<button class="btn help">help</button>
+</div>
+
+<p id="para">
+<br><br>
+Government College of Engineering, Tirunelveli, is a state-owned Engineering Institute located in the city of Tirunelveli
+ in the state of Tamil Nadu. Tirunelveli is often referred as the 'Oxford of south India' due to the larger
+ number of educational institutions present. It is affiliated to Anna University, Chennai and is an AICTE 
+ and BOTE approved educational institution in Tamil Nadu. It was established in the year 1981. The college
+ is spread over an area of 23 hectares.[1] The institution offers five undergraduate and five postgraduate 
+ programs. The syllabus and curriculum has been structured by Anna University, Chennai.<br><br>
+</p>
+
+
+
+<br><br>
+<img src="clgfont.jpg"/>
+<br><br><hr>
+<h2>ABOUT</h2>
+<h2>
+@COPYRIGTS CLIME FOR CSE DEPARTMANTS
+</h2>
+
+
+<script>
+		// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("buttonn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+
+</body>
+<script type="text/javascript" src="index.js" ></script>
+<script type="text/javascript" src="constants.js" ></script>
+<script type="text/javascript" src="speech.js" ></script>
+</html>
